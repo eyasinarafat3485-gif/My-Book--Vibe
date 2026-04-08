@@ -30,7 +30,7 @@ const ListedWishList = ({sortingType}) => {
 
     if(filteredWishList.length === 0){
         return <div className='h-[50vh] bg-gray-100 flex items-center justify-center '>
-            <h2 className='font-bold text-3xl'>No wish list data found.</h2>
+            <h2 className='font-bold text-3xl'>No wish list data found!</h2>
         </div>
     }
 

@@ -8,7 +8,7 @@ const Banner = () => {
                     src="/assets/banner.png"
                 />
                 <div>
-                    <h1 className="text-5xl font-bold">Books to freshen up <br /> your bookshelf</h1>
+                    <h1 className="text-5xl font-bold">Books to freshen up <br /> your bookshelf here</h1>
                     
                     <button className="btn btn-success text-white mt-8">View the List</button>
                 </div>
