@@ -8,18 +8,6 @@ const BookCon = ({ children }) => {
     const [readList, setReadList] = useState(()=> getAllReadListFromLocalDb());
     const [wishList, setWishList] = useState(()=> getAllWishListFromLocalDB());
 
-    // useEffect(()=>{
-    //     const getWishListFromLocalDB= getAllWishListFromLocalDB()
-    //     console.log(getWishListFromLocalDB);
-    //     setWishList(getAllWishListFromLocalDB)
-    // }, [])
-
-    // useEffect(()=>{
-    //     const getReadListFromLocalDb= getAllReadListFromLocalDb() 
-    //     console.log(getReadListFromLocalDb, 'readList from localDb')
-    //     setReadList(getAllReadListFromLocalDb)
-    // }, [])
-
     const handleMarkAsRead = (currentBook) => {
         addReadListToLocalDb(currentBook)
         console.log(currentBook)
